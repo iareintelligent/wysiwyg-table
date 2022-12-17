@@ -1,26 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { TableProvider } from './providers/table';
+import TableProps from './components/TableProps/TableProps';
+import Table from './components/Table/Table';
+import { createTheme, ThemeProvider } from '@mui/material';
+import { createEditor, Editor } from 'slate';
+import { withHistory } from 'slate-history';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [editor, setEditor] = React.useState<Editor>(
+        withHistory(createEditor())
+    );
+
+    const theme = createTheme({
+        palette: {},
+    });
+    return (
+        <ThemeProvider theme={theme}>
+            <TableProvider>
+                <TableProps />
+                <Table />
+            </TableProvider>
+        </ThemeProvider>
+    );
 }
 
 export default App;
