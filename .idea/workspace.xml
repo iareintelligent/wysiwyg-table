@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="457bb52d-21f5-4347-ae84-f4dd1719ea78" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableProps/TableProps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableProps/TableProps.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/providers/table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/table.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,7 @@
     "nodejs_interpreter_path": "/Users/topher/.nvm/versions/node/v19.2.0/bin/node",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "/Users/topher/code/clearwater-wysiwyg-table/node_modules/prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Users/topher/code/clearwater-wysiwyg-table/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -79,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670879732175</updated>
       <workItem from="1670879736259" duration="10104000" />
-      <workItem from="1670966600503" duration="41728000" />
+      <workItem from="1670966600503" duration="48079000" />
     </task>
     <servers />
   </component>

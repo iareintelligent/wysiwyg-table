@@ -2,7 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 import { OrNull } from '../custom-types';
 
 interface ProviderProps {
-    children: JSX.Element[];
+    children: JSX.Element;
 }
 
 export interface TableProviderValues {

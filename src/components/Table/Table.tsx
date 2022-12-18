@@ -8,9 +8,11 @@ import {
     toggleLeafMarkup,
     updateBlockAlignment,
 } from '../../helpers/CustomEditor';
+import './Table.css';
 
 const Table: React.FC = () => {
-    const { numRows, numCols } = useTable();
+    const { numRows, numCols, addCol, addRow, removeCol, removeRow } =
+        useTable();
     const [cellData] = useState<string>('');
     const [editorRef, setEditorRef] = useState<Editor>();
 
@@ -107,32 +109,45 @@ const Table: React.FC = () => {
                 </div>
             </div>
 
-            <table data-testid="wysiwyg-table">
-                <tbody>
-                    {Array.from(Array(numRows || 0).keys()).map(
-                        (rowIndex: number) => (
-                            <tr key={rowIndex}>
-                                {Array.from(Array(numCols || 0).keys()).map(
-                                    (colIndex: number) => (
-                                        <td
-                                            key={`${rowIndex}${colIndex}`}
-                                            style={{
-                                                border: '1px solid black',
-                                            }}
-                                        >
-                                            <WysiwygCell
-                                                data={cellData}
-                                                setEditorRef={setEditorRef}
-                                                coords={[rowIndex, colIndex]}
-                                            />
-                                        </td>
-                                    )
-                                )}
-                            </tr>
-                        )
-                    )}
-                </tbody>
-            </table>
+            <div className="parent">
+                <div className="div1">
+                    <table data-testid="wysiwyg-table">
+                        <tbody>
+                            {Array.from(Array(numRows || 0).keys()).map(
+                                (rowIndex: number) => (
+                                    <tr key={rowIndex}>
+                                        {Array.from(
+                                            Array(numCols || 0).keys()
+                                        ).map((colIndex: number) => (
+                                            <td
+                                                key={`${rowIndex}${colIndex}`}
+                                                style={{
+                                                    border: '1px solid black',
+                                                }}
+                                            >
+                                                <WysiwygCell
+                                                    data={cellData}
+                                                    setEditorRef={setEditorRef}
+                                                    coords={[
+                                                        rowIndex,
+                                                        colIndex,
+                                                    ]}
+                                                />
+                                            </td>
+                                        ))}
+                                    </tr>
+                                )
+                            )}
+                        </tbody>
+                    </table>
+                </div>
+                <div className="div2">
+                    <button onClick={addCol}>Add Col</button>
+                </div>
+                <div className="div3">
+                    <button onClick={addRow}>Add Row</button>
+                </div>
+            </div>
         </div>
     );
 };

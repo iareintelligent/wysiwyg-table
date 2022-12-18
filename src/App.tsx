@@ -17,8 +17,18 @@ function App() {
     return (
         <ThemeProvider theme={theme}>
             <TableProvider>
-                <TableProps />
-                <Table />
+                <div
+                    style={{
+                        display: 'flex',
+                        width: '600px',
+                        marginLeft: 'auto',
+                        marginRight: 'auto',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                    }}
+                >
+                    <Table />
+                </div>
             </TableProvider>
         </ThemeProvider>
     );

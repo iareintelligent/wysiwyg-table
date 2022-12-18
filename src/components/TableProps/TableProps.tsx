@@ -13,13 +13,25 @@ const TableProps: FC = () => {
     }: TableProviderValues = useTable();
 
     return (
-        <div>
-            <div>
+        <div style={{ width: '100%' }}>
+            <div
+                style={{
+                    display: 'block',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                }}
+            >
                 <button onClick={removeRow}>Remove Row</button>
                 {numRows}
                 <button onClick={addRow}>Add Row</button>
             </div>
-            <div>
+            <div
+                style={{
+                    display: 'block',
+                    marginLeft: 'auto',
+                    marginRight: 'auto',
+                }}
+            >
                 <button onClick={removeCol}>Remove Col</button>
                 {numCols}
                 <button onClick={addCol}>Add Col</button>
