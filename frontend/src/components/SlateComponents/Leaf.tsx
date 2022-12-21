@@ -13,11 +13,6 @@ export const Leaf = (props: RenderLeafProps) => {
                 fontStyle: leaf.italic ? 'italic' : 'normal',
                 textDecoration: leaf.underline ? 'underline' : 'none',
             }}
-            onClick={() => {
-                // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-                // @ts-ignore
-                this.select();
-            }}
             {...attributes}
         >
             {children}
