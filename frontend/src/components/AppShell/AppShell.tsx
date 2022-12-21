@@ -10,18 +10,14 @@ import {
     Divider,
     Drawer,
     Grid,
-    Icon,
     IconButton,
-    makeStyles,
     TextField,
     ThemeProvider,
     Toolbar,
-    useTheme,
 } from '@mui/material';
 import { useTable } from '../../providers/table';
-import { GitHub, Image, LinkedIn, Menu } from '@mui/icons-material';
+import { GitHub, LinkedIn, Menu } from '@mui/icons-material';
 import Table from '../Table/Table';
-import Logo from './clearwater-logo.svg';
 
 const drawerWidth = 240;
 
@@ -32,16 +28,7 @@ const AppShell: React.FC = () => {
         },
     });
     const [mobileOpen, setMobileOpen] = React.useState(true);
-    const {
-        numRows,
-        numCols,
-        setNumRows,
-        setNumCols,
-        addCol,
-        addRow,
-        removeCol,
-        removeRow,
-    } = useTable();
+    const { numRows, numCols, setNumRows, setNumCols } = useTable();
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
@@ -56,7 +43,7 @@ const AppShell: React.FC = () => {
         hook: (definitelyAnInteger: number) => void
     ) {
         const tableSizeInt = parseInt(event.target.value);
-        if (!isNaN(tableSizeInt) && tableSizeInt < 26 && tableSizeInt > 0) {
+        if (!isNaN(tableSizeInt) && tableSizeInt < 26 && tableSizeInt >= 0) {
             hook(tableSizeInt);
         }
     }
