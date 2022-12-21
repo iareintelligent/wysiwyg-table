@@ -29,12 +29,16 @@ const WysiwygMarkupToolbar: React.FC<WysiwygMarkupToolbarProps> = ({
             >
                 <Button
                     data-testid="bold-markup-button"
-                    variant="outlined"
+                    variant="contained"
                     sx={{
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'flex-start',
                         width: '65px',
+                        fontWeight: 'bold',
+                        marginTop: '1px',
+                        marginBottom: '-1px',
+                        fontSize: '18px',
                     }}
                     role="radio"
                     aria-label="align left"
@@ -46,12 +50,16 @@ const WysiwygMarkupToolbar: React.FC<WysiwygMarkupToolbarProps> = ({
                     <div>&equiv;</div>
                 </Button>
                 <Button
-                    variant="outlined"
+                    variant="contained"
                     sx={{
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
                         width: '65px',
+                        fontWeight: 'bold',
+                        marginTop: '1px',
+                        marginBottom: '-1px',
+                        fontSize: '18px',
                     }}
                     role="radio"
                     aria-label="align center"
@@ -66,12 +74,16 @@ const WysiwygMarkupToolbar: React.FC<WysiwygMarkupToolbarProps> = ({
                     <div>&equiv;</div>
                 </Button>
                 <Button
-                    variant="outlined"
+                    variant="contained"
                     sx={{
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'flex-end',
                         width: '65px',
+                        fontWeight: 'bold',
+                        marginTop: '1px',
+                        marginBottom: '-1px',
+                        fontSize: '18px',
                     }}
                     role="radio"
                     aria-label="align right"
@@ -88,7 +100,7 @@ const WysiwygMarkupToolbar: React.FC<WysiwygMarkupToolbarProps> = ({
             </ButtonGroup>
             <ButtonGroup>
                 <Button
-                    variant="outlined"
+                    variant="contained"
                     onClick={() => {
                         if (editorRef) toggleLeafMarkup(editorRef, 'bold');
                     }}
@@ -96,7 +108,7 @@ const WysiwygMarkupToolbar: React.FC<WysiwygMarkupToolbarProps> = ({
                     <span style={{ fontWeight: 'bold' }}>B</span>
                 </Button>
                 <Button
-                    variant="outlined"
+                    variant="contained"
                     onClick={() => {
                         if (editorRef) toggleLeafMarkup(editorRef, 'italic');
                     }}
@@ -104,7 +116,7 @@ const WysiwygMarkupToolbar: React.FC<WysiwygMarkupToolbarProps> = ({
                     <em>I</em>
                 </Button>
                 <Button
-                    variant="outlined"
+                    variant="contained"
                     onClick={() => {
                         if (editorRef) toggleLeafMarkup(editorRef, 'underline');
                     }}

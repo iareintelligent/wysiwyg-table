@@ -5,24 +5,32 @@ import {
     AppBar,
     Box,
     Button,
+    createTheme,
     CssBaseline,
     Divider,
     Drawer,
     Grid,
+    Icon,
     IconButton,
+    makeStyles,
     TextField,
     ThemeProvider,
     Toolbar,
     useTheme,
 } from '@mui/material';
 import { useTable } from '../../providers/table';
-import { GitHub, LinkedIn, Menu } from '@mui/icons-material';
+import { GitHub, Image, LinkedIn, Menu } from '@mui/icons-material';
 import Table from '../Table/Table';
+import Logo from './clearwater-logo.svg';
 
 const drawerWidth = 240;
 
 const AppShell: React.FC = () => {
-    const theme = useTheme();
+    const theme = createTheme({
+        palette: {
+            primary: { main: '#00b2ba', contrastText: '#fff' },
+        },
+    });
     const [mobileOpen, setMobileOpen] = React.useState(true);
     const { numRows, numCols, setNumRows, setNumCols } = useTable();
 
@@ -172,7 +180,7 @@ const AppShell: React.FC = () => {
                             <Menu />
                         </IconButton>
                         <Typography variant="h6" noWrap component="div">
-                            Clearwater Analytics Takehome -- WYSIWYG Table
+                            Clearwater Analytics -- WYSIWYG Table
                         </Typography>
                     </Toolbar>
                 </AppBar>
