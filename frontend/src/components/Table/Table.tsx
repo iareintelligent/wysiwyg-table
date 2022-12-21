@@ -8,36 +8,40 @@ import { Button, Fab, Paper, SxProps } from '@mui/material';
 import Box from '@mui/material/Box';
 import { Add, Delete } from '@mui/icons-material';
 
-const deleteColFabStyle = {
-    position: 'absolute',
-    bottom: '-3rem',
-    right: 10,
-};
-const addRowFabStyle = {
-    position: 'absolute',
-    bottom: '-3rem',
-    left: 0,
-    width: '70%',
-};
-
-const deleteRowFabStyle = {
-    position: 'absolute',
-    right: '-5.5rem',
-    bottom: 0,
-};
-const addColFabStyle = {
-    position: 'absolute',
-    right: '-5.5rem',
-    height: '70%',
-    minHeight: '33px',
-    top: 0,
-};
-
 const Table: React.FC = () => {
     const { numRows, numCols, addCol, addRow, removeCol, removeRow } =
         useTable();
     const [cellData] = useState<string>('');
     const [editorRef, setEditorRef] = useState<Editor>(createEditor);
+
+    const deleteColFabStyle = {
+        fontSize: 12,
+        position: 'absolute',
+        bottom: numCols < 3 ? '-6rem' : '-3rem',
+        right: 10,
+    };
+    const addRowFabStyle = {
+        fontSize: 12,
+        position: 'absolute',
+        bottom: '-3rem',
+        left: 0,
+        width: '73%',
+    };
+
+    const deleteRowFabStyle = {
+        fontSize: 12,
+        position: 'absolute',
+        right: numRows < 3 ? '-11rem' : '-5.5rem',
+        bottom: 0,
+    };
+    const addColFabStyle = {
+        fontSize: 12,
+        position: 'absolute',
+        right: '-5.5rem',
+        height: '70%',
+        minHeight: '33px',
+        top: 0,
+    };
 
     const fabs = useMemo(() => {
         return [
@@ -88,7 +92,12 @@ const Table: React.FC = () => {
             {numCols > 0 && numRows > 0 && (
                 <WysiwygMarkupToolbar editorRef={editorRef} />
             )}
-            <Box display="flex" py={10} overflow="auto" position="relative">
+            <Box
+                display="flex"
+                pb={numRows < 3 ? (numCols > 3 ? 25 : 15) : 15}
+                overflow="auto"
+                position="relative"
+            >
                 {(numRows > 0 && numCols > 0 && (
                     <Paper
                         component={Box}
@@ -105,15 +114,8 @@ const Table: React.FC = () => {
                                 onClick={fab.onClick}
                                 variant="extended"
                             >
-                                <span
-                                    style={{
-                                        display: 'flex',
-                                        alignItems: 'flex-start',
-                                        justifyContent: 'flex-start',
-                                    }}
-                                >
-                                    {fab.icon} {fab.label}
-                                </span>
+                                {fab.icon} &nbsp;
+                                {fab.label}
                             </Fab>
                         ))}
                         <table>
