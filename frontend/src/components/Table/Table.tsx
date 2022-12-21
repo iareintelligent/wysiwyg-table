@@ -84,7 +84,7 @@ const Table: React.FC = () => {
     }
 
     return (
-        <div>
+        <Box maxWidth="100%">
             {numCols > 0 && numRows > 0 && (
                 <WysiwygMarkupToolbar editorRef={editorRef} />
             )}
@@ -159,7 +159,7 @@ const Table: React.FC = () => {
                     </Button>
                 )}
             </Box>
-        </div>
+        </Box>
     );
 };
 
