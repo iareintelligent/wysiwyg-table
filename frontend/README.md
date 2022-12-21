@@ -1,21 +1,18 @@
-# Getting Started with Create React App
+# Clearwater Analytics WYSIWYG Table
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Design Decisions:
-
-1. `<React.StrictMode />`:
-StrictMode currently helps with:
-
-    Identifying components with unsafe lifecycles
-    Warning about legacy string ref API usage
-    Warning about deprecated findDOMNode usage
-    Detecting unexpected side effects
-    Detecting legacy context API
-    Ensuring reusable state
-
-2. `<CssBaseline />`:
-Various MUI-recommended default styling to html elements, so I can just focus on high-level styling.
+## Acceptance Criteria:
+- [x] App uses React & Typescript
+- [x] App run on local machine via `npm install` & `npm run start`
+- [x] Testing using preferred framework - works via `npm run test`
+- (test coverage is short, just to demo understanding of mocking, spying, testing, etc)
+- [x] Styling using preferred methods
+- Mostly preferred inlining w/ sx props.  Few modifications made to the material-ui library, which provides sensible stying options. 
+- [x] User can create table w/ set numbers and rows
+- [x] User can add or remove rows and columns
+- [x] User can enter text into cells
+- [x] Text can be justified left, right or center within a cell
+- [x] Text can be made bold, italic, or underlined within a cell
+- [x] wysiwyg editor can be saved and loaded from localstorage on initial load
 
 ## Available Scripts
 
@@ -43,19 +40,3 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
