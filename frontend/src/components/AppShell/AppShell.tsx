@@ -106,10 +106,11 @@ const AppShell: React.FC = () => {
                         type="number"
                         value={numRows}
                         error={numRows <= 0}
+                        inputProps={{ inputMode: 'numeric' }}
                         helperText={
                             numRows <= 0
                                 ? 'Positive Integers Only'
-                                : numRows == 25
+                                : numRows > 19
                                 ? 'Max value is 25'
                                 : ' '
                         }
@@ -129,10 +130,11 @@ const AppShell: React.FC = () => {
                         variant="outlined"
                         type="number"
                         error={numCols <= 0}
+                        inputProps={{ inputMode: 'numeric' }}
                         helperText={
                             numCols <= 0
                                 ? 'Positive Integers Only'
-                                : numCols == 25
+                                : numCols > 19
                                 ? 'Max value is 25'
                                 : ' '
                         }
