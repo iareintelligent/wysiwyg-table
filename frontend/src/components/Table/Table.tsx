@@ -94,6 +94,7 @@ const Table: React.FC = () => {
             )}
             <Box
                 display="flex"
+                pt={5}
                 pb={numRows < 3 ? (numCols > 3 ? 25 : 15) : 15}
                 overflow="auto"
                 position="relative"
