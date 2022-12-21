@@ -5,17 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="457bb52d-21f5-4347-ae84-f4dd1719ea78" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Table/Table.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TableProps/TableProps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TableProps/TableProps.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.prettierrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App2.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate-react-cli.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/generate-react-cli.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SlateComponents/DefaultElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SlateComponents/DefaultElement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SlateComponents/Leaf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SlateComponents/Leaf.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Table/Table.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Table/Table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Table/Table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableProps/TableProps.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/TableProps/TableProps.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableProps/TableProps.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/TableProps/TableProps.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TableProps/TableProps.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/TableProps/TableProps.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WysiwygCell/WysiwygCell.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/WysiwygCell/WysiwygCell.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WysiwygCell/WysiwygCell.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/WysiwygCell/WysiwygCell.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WysiwygCell/WysiwygCell.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/WysiwygCell/WysiwygCell.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WysiwygComponents/DefaultElement.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/WysiwygComponents/DefaultElement.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WysiwygComponents/Leaf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/WysiwygComponents/Leaf.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WysiwygComponents/WysiwygTable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WysiwygComponents/WysiwygTable.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WysiwygComponents/WysiwygTable.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WysiwygComponents/initialValue.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/custom-types.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/custom-types.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/CustomEditor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/helpers/CustomEditor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/providers/table.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/providers/table.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,11 +82,12 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/topher/code/clearwater-wysiwyg-table/frontend/node_modules/react-scripts",
     "nodejs_interpreter_path": "/Users/topher/.nvm/versions/node/v19.2.0/bin/node",
     "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/topher/code/clearwater-wysiwyg-table/node_modules/prettier",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "/Users/topher/code/clearwater-wysiwyg-table/node_modules/typescript/lib",
+    "prettierjs.PrettierConfiguration.Package": "/Users/topher/code/clearwater-wysiwyg-table/frontend/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "/Users/topher/code/clearwater-wysiwyg-table/cloud/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -53,21 +96,95 @@
       <recent name="$PROJECT_DIR$/src/components/WysiwygTable/DefaultElement.tsx" />
       <recent name="$PROJECT_DIR$/src/components/WysiwygTable/Leaf.tsx" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/components/WysiwygAlignmentButtons" />
+      <recent name="$PROJECT_DIR$/frontend/public" />
+      <recent name="$PROJECT_DIR$/frontend" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
+  <component name="RunManager" selected="Jest.&lt;WysiwygMarkupToolbar /&gt;.marking up wysiwyg text in a table cell.markup toggle.() =&gt; {&#10;                jest.mock('slate', () =&gt; ({&#10;                    Editor: jest.fn().mockImplementation(() =&gt; {&#10;                        return {&#10;                            addMark: jest.fn(),&#10;                            removeMark: jest.fn(),&#10;                        };&#10;                    }),&#10;                    createEditor: () =&gt; {&#10;                        return {&#10;                            marks: {&#10;                                bold: false,&#10;                                italic: false,&#10;                                underlined: false,&#10;                            } as Partial&lt;Omit&lt;Text, 'text'&gt;&gt;,&#10;                        };&#10;                    },&#10;                }));&#10;&#10;                const editor = createEditor();&#10;&#10;                render(&#10;                    &lt;&gt;&#10;                        &lt;WysiwygMarkupToolbar editorRef={editor} /&gt;&#10;                        &lt;WysiwygCell data={'test'} coords={[0, 0]} /&gt;&#10;                    &lt;/&gt;&#10;                );&#10;&#10;                const leafText = screen.getByText('test');&#10;                fireEvent.dblClick(leafText);&#10;&#10;                const boldButton = screen.getByTestId('bold-markup-button');&#10;&#10;                fireEvent.click(boldButton);&#10;                const leafElement = screen.getByTestId('leaf-element');&#10;                expect(leafElement.getAttribute('style')).toContain('bold');&#10;            }">
+    <configuration name="&lt;AppShell /&gt;.handleSetNums" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/frontend/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/frontend" />
       <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/frontend/src/components/AppShell/AppShell.test.tsx" />
+      <test-names>
+        <test-name value="&lt;AppShell /&gt;" />
+        <test-name value="handleSetNums" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&lt;AppShell /&gt;.handleSetNums.should not allow values more than 25" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/frontend/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/frontend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/frontend/src/components/AppShell/AppShell.test.tsx" />
+      <test-names>
+        <test-name value="&lt;AppShell /&gt;" />
+        <test-name value="handleSetNums" />
+        <test-name value="should not allow values more than 25" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&lt;WysiwygMarkupToolbar /&gt;.marking up wysiwyg text in a table cell" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/frontend/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/frontend" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/frontend/src/components/WysiwygMarkupToolbar/WysiwygMarkupToolbar.test.tsx" />
+      <test-names>
+        <test-name value="&lt;WysiwygMarkupToolbar /&gt;" />
+        <test-name value="marking up wysiwyg text in a table cell" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&lt;WysiwygMarkupToolbar /&gt;.marking up wysiwyg text in a table cell.markup toggle.() =&gt; {&#10;                jest.mock('slate', () =&gt; ({&#10;                    Editor: jest.fn().mockImplementation(() =&gt; {&#10;                        return {&#10;                            addMark: jest.fn(),&#10;                            removeMark: jest.fn(),&#10;                        };&#10;                    }),&#10;                    createEditor: () =&gt; {&#10;                        return {&#10;                            marks: {&#10;                                bold: false,&#10;                                italic: false,&#10;                                underlined: false,&#10;                            } as Partial&lt;Omit&lt;Text, 'text'&gt;&gt;,&#10;                        };&#10;                    },&#10;                }));&#10;&#10;                const editor = createEditor();&#10;&#10;                render(&#10;                    &lt;&gt;&#10;                        &lt;WysiwygMarkupToolbar editorRef={editor} /&gt;&#10;                        &lt;WysiwygCell data={'test'} coords={[0, 0]} /&gt;&#10;                    &lt;/&gt;&#10;                );&#10;&#10;                const leafText = screen.getByText('test');&#10;                fireEvent.dblClick(leafText);&#10;&#10;                const boldButton = screen.getByTestId('bold-markup-button');&#10;&#10;                fireEvent.click(boldButton);&#10;                const leafElement = screen.getByTestId('leaf-element');&#10;                expect(leafElement.getAttribute('style')).toContain('bold');&#10;            }" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/frontend/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/frontend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/frontend/src/components/WysiwygMarkupToolbar/WysiwygMarkupToolbar.test.tsx" />
+      <test-names>
+        <test-name value="&lt;WysiwygMarkupToolbar /&gt;" />
+        <test-name value="marking up wysiwyg text in a table cell" />
+        <test-name value="markup toggle" />
+        <test-name value="() =&gt; {&#10;                jest.mock('slate', () =&gt; ({&#10;                    Editor: jest.fn().mockImplementation(() =&gt; {&#10;                        return {&#10;                            addMark: jest.fn(),&#10;                            removeMark: jest.fn(),&#10;                        };&#10;                    }),&#10;                    createEditor: () =&gt; {&#10;                        return {&#10;                            marks: {&#10;                                bold: false,&#10;                                italic: false,&#10;                                underlined: false,&#10;                            } as Partial&lt;Omit&lt;Text, 'text'&gt;&gt;,&#10;                        };&#10;                    },&#10;                }));&#10;&#10;                const editor = createEditor();&#10;&#10;                render(&#10;                    &lt;&gt;&#10;                        &lt;WysiwygMarkupToolbar editorRef={editor} /&gt;&#10;                        &lt;WysiwygCell data={'test'} coords={[0, 0]} /&gt;&#10;                    &lt;/&gt;&#10;                );&#10;&#10;                const leafText = screen.getByText('test');&#10;                fireEvent.dblClick(leafText);&#10;&#10;                const boldButton = screen.getByTestId('bold-markup-button');&#10;&#10;                fireEvent.click(boldButton);&#10;                const leafElement = screen.getByTestId('leaf-element');&#10;                expect(leafElement.getAttribute('style')).toContain('bold');&#10;            }" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="&lt;WysiwygMarkupToolbar /&gt;.marking up wysiwyg text in a table cell.markup toggle.should render selected text bold if it is not already bold" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/frontend/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$/frontend" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/frontend/src/components/WysiwygMarkupToolbar/WysiwygMarkupToolbar.test.tsx" />
+      <test-names>
+        <test-name value="&lt;WysiwygMarkupToolbar /&gt;" />
+        <test-name value="marking up wysiwyg text in a table cell" />
+        <test-name value="markup toggle" />
+        <test-name value="should render selected text bold if it is not already bold" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
+        <item itemvalue="Jest.&lt;WysiwygMarkupToolbar /&gt;.marking up wysiwyg text in a table cell.markup toggle.() =&gt; {&#10;                jest.mock('slate', () =&gt; ({&#10;                    Editor: jest.fn().mockImplementation(() =&gt; {&#10;                        return {&#10;                            addMark: jest.fn(),&#10;                            removeMark: jest.fn(),&#10;                        };&#10;                    }),&#10;                    createEditor: () =&gt; {&#10;                        return {&#10;                            marks: {&#10;                                bold: false,&#10;                                italic: false,&#10;                                underlined: false,&#10;                            } as Partial&lt;Omit&lt;Text, 'text'&gt;&gt;,&#10;                        };&#10;                    },&#10;                }));&#10;&#10;                const editor = createEditor();&#10;&#10;                render(&#10;                    &lt;&gt;&#10;                        &lt;WysiwygMarkupToolbar editorRef={editor} /&gt;&#10;                        &lt;WysiwygCell data={'test'} coords={[0, 0]} /&gt;&#10;                    &lt;/&gt;&#10;                );&#10;&#10;                const leafText = screen.getByText('test');&#10;                fireEvent.dblClick(leafText);&#10;&#10;                const boldButton = screen.getByTestId('bold-markup-button');&#10;&#10;                fireEvent.click(boldButton);&#10;                const leafElement = screen.getByTestId('leaf-element');&#10;                expect(leafElement.getAttribute('style')).toContain('bold');&#10;            }" />
+        <item itemvalue="Jest.&lt;WysiwygMarkupToolbar /&gt;.marking up wysiwyg text in a table cell" />
+        <item itemvalue="Jest.&lt;WysiwygMarkupToolbar /&gt;.marking up wysiwyg text in a table cell.markup toggle.should render selected text bold if it is not already bold" />
+        <item itemvalue="Jest.&lt;AppShell /&gt;.handleSetNums.should not allow values more than 25" />
+        <item itemvalue="Jest.&lt;AppShell /&gt;.handleSetNums" />
       </list>
     </recent_temporary>
   </component>
@@ -80,7 +197,8 @@
       <option name="presentableId" value="Default" />
       <updated>1670879732175</updated>
       <workItem from="1670879736259" duration="10104000" />
-      <workItem from="1670966600503" duration="48079000" />
+      <workItem from="1670966600503" duration="77861000" />
+      <workItem from="1671562766768" duration="15272000" />
     </task>
     <servers />
   </component>
@@ -97,5 +215,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/clearwater_wysiwyg_table$_AppShell____it_should_mount.info" NAME="&lt;AppShell /&gt;.it should mount Coverage Results" MODIFIED="1671563602129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/clearwater_wysiwyg_table$_WysiwygMarkupToolbar____marking_up_wysiwyg_text_in_a_table_cell_markup_toggle_________________________jest_mock__slate________________________________Editor__jest_fn___mockImplementation_________________________________return_______________________________addMark__jest_fn________________________________removeMark__jest_fn___________________________________________________________________________createEditor__________________________________return_______________________________marks____________________________________bold__false__________________________________italic__false__________________________________underlined__false________________________________as_Partial_Omit_Text___text_____________________________________________________________________________________________const_editor___createEditor_____________________render__________________________________________________WysiwygMarkupToolbar_editorRef__editor______________________________WysiwygCell_data___test___coords___0__0__________________________________________________________________const_leafText___screen_getByText__test____________________fireEvent_dblClick_leafText____________________const_boldButton___screen_getByTestId__bold_markup_button_____________________fireEvent_click_boldButton___________________const_leafElement___screen_getByTestId__leaf_element____________________expect_leafElement_getAttribute__style____toContain__bold_________________.info" NAME="&lt;WysiwygMarkupToolbar /&gt;.marking up wysiwyg text in a table cell.markup toggle.() =&gt; {&#10;                jest.mock('slate', () =&gt; ({&#10;                    Editor: jest.fn().mockImplementation(() =&gt; {&#10;                        return {&#10;                            addMark: jest.fn(),&#10;                            removeMark: jest.fn(),&#10;                        };&#10;                    }),&#10;                    createEditor: () =&gt; {&#10;                        return {&#10;                            marks: {&#10;                                bold: false,&#10;                                italic: false,&#10;                                underlined: false,&#10;                            } as Partial&lt;Omit&lt;Text, 'text'&gt;&gt;,&#10;                        };&#10;                    },&#10;                }));&#10;&#10;                const editor = createEditor();&#10;&#10;                render(&#10;                    &lt;&gt;&#10;                        &lt;WysiwygMarkupToolbar editorRef={editor} /&gt;&#10;                        &lt;WysiwygCell data={'test'} coords={[0, 0]} /&gt;&#10;                    &lt;/&gt;&#10;                );&#10;&#10;                const leafText = screen.getByText('test');&#10;                fireEvent.dblClick(leafText);&#10;&#10;                const boldButton = screen.getByTestId('bold-markup-button');&#10;&#10;                fireEvent.click(boldButton);&#10;                const leafElement = screen.getByTestId('leaf-element');&#10;                expect(leafElement.getAttribute('style')).toContain('bold');&#10;            } Coverage Results" MODIFIED="1671582965372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/clearwater_wysiwyg_table$_AppShell____handleSetNums_should_not_allow_values_more_than_25.info" NAME="&lt;AppShell /&gt;.handleSetNums.should not allow values more than 25 Coverage Results" MODIFIED="1671569277700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/clearwater_wysiwyg_table$renders_learn_react_link.info" NAME="renders learn react link Coverage Results" MODIFIED="1671563123912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
