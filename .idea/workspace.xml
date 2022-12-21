@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="457bb52d-21f5-4347-ae84-f4dd1719ea78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/SlateComponents/Leaf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/SlateComponents/Leaf.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="457bb52d-21f5-4347-ae84-f4dd1719ea78" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +153,7 @@
       <updated>1670879732175</updated>
       <workItem from="1670879736259" duration="10104000" />
       <workItem from="1670966600503" duration="77861000" />
-      <workItem from="1671562766768" duration="26127000" />
+      <workItem from="1671562766768" duration="26753000" />
     </task>
     <servers />
   </component>
