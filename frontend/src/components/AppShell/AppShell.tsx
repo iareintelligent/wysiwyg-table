@@ -32,7 +32,16 @@ const AppShell: React.FC = () => {
         },
     });
     const [mobileOpen, setMobileOpen] = React.useState(true);
-    const { numRows, numCols, setNumRows, setNumCols } = useTable();
+    const {
+        numRows,
+        numCols,
+        setNumRows,
+        setNumCols,
+        addCol,
+        addRow,
+        removeCol,
+        removeRow,
+    } = useTable();
 
     const handleDrawerToggle = () => {
         setMobileOpen(!mobileOpen);
@@ -47,7 +56,7 @@ const AppShell: React.FC = () => {
         hook: (definitelyAnInteger: number) => void
     ) {
         const tableSizeInt = parseInt(event.target.value);
-        if (!isNaN(tableSizeInt) && tableSizeInt < 26 && tableSizeInt >= 0) {
+        if (!isNaN(tableSizeInt) && tableSizeInt < 26 && tableSizeInt > 0) {
             hook(tableSizeInt);
         }
     }
@@ -97,7 +106,11 @@ const AppShell: React.FC = () => {
             </Box>
             <Divider />
             <Grid container spacing={1} p={2}>
-                <Grid item xs={12}>
+                <Grid
+                    item
+                    xs={12}
+                    sx={{ display: 'flex', alignItems: 'center' }}
+                >
                     <TextField
                         fullWidth
                         data-testid="numRowsInput"
@@ -114,6 +127,11 @@ const AppShell: React.FC = () => {
                                 : ' '
                         }
                         onChange={(event) => handleSetNums(event, setNumRows)}
+                        onClick={(event) => {
+                            event.currentTarget
+                                .querySelector('input')
+                                ?.select();
+                        }}
                     />
                 </Grid>
                 <Grid item xs={12}>
@@ -133,6 +151,11 @@ const AppShell: React.FC = () => {
                         }
                         value={numCols}
                         onChange={(event) => handleSetNums(event, setNumCols)}
+                        onClick={(event) => {
+                            event.currentTarget
+                                .querySelector('input')
+                                ?.select();
+                        }}
                     />
                 </Grid>
                 <Grid item xs={12}>
